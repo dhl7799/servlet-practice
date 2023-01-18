@@ -1,9 +1,8 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
@@ -14,38 +13,38 @@
 	<h5>Hello World</h5>
 	<h6>Hello World</h6>
 	
-	<table>
+	<table border="1" cellspacing="0" cellpadding="10">
 		<tr>
-			<td>±Û¹øÈ£</td>
-			<td>±ÛÁ¦¸ñ</td>
-			<td>ÀÛ¼ºÀÚ</td>
+			<th>ê¸€ë²ˆí˜¸</th>
+			<th>ê¸€ì œëª©</th>
+			<th>ìž‘ì„±ìž</th>
 		</tr>
-		
 		<tr>
 			<td>1</td>
-			<td>¾È³ç</td>
-			<td>µÑ¸®</td>
+			<td>ì•ˆë…•</td>
+			<td>ë‘˜ë¦¬</td>
 		</tr>
-			
 		<tr>
 			<td>2</td>
-			<td>¾È³ç</td>
-			<td>¸¶ÀÌÄÝ</td>
+			<td>ì•ˆë…•</td>
+			<td>ë§ˆì´ì½œ</td>
 		</tr>
 	</table>
-	<img src = 'loopy.jpg'>
+	<br>               
 	
-	<p> ¹®ÀåÀÔ´Ï´Ù.~~~~~~~~~~~~<br>
-	¹®ÀåÀÔ´Ï´Ù.~~~~~~~~~~~~<br>
-	¹®ÀåÀÔ´Ï´Ù.~~~~~~~~~~~~<br>
-	¹®ÀåÀÔ´Ï´Ù.~~~~~~~~~~~~<br>
-	¹®ÀåÀÔ´Ï´Ù.~~~~~~~~~~~~<br>
-	¹®ÀåÀÔ´Ï´Ù.~~~~~~~~~~~~<br>
-	¹®ÀåÀÔ´Ï´Ù.~~~~~~~~~~~~
-	</p>
+	<img src='http://127.0.0.1:8080/helloweb/assets/images/loopy.png' style="width:120px; border:1px solid #999">
+	<img src='/helloweb/loopy.png' style="width:120px; border:1px solid #999">
+	<img src='assets/images/loopy.png' style="width:120px; border:1px solid #999">
+
+	<p>
+		ë¬¸ìž¥ ìž…ë‹ˆë‹¤.~~~~<br>
+		ë¬¸ìž¥ ìž…ë‹ˆë‹¤.~~~~<br>
+		ë¬¸ìž¥ ìž…ë‹ˆë‹¤.~~~~<br>
+		ë¬¸ìž¥ ìž…ë‹ˆë‹¤.~~~~
+	</p>		
+	<a href="/helloweb/hello">helloë¡œ ê°€ê¸°</a>
 	
-	<a href="/helloweb/helloservlet">hello·Î °¡±â</a>
 	<br>
-	<a href="/helloweb/form.jsp">formÀ¸·Î °¡±â</a>
+	<a href="/helloweb/form.jsp">formìœ¼ë¡œ ê°€ê¸°</a>
 </body>
 </html>
